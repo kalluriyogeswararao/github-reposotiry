@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'roboto';
+}
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.main-heading {
+  font-family: 'Lobster';
+  font-size: 45px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.all-tabItems {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding-top: 35px;
+}
+
+.all-repos {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.failure-heading {
+  font-family: 'Bree serif';
+  font-size: 40px;
+  color: #0284c7;
+}

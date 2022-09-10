@@ -1,0 +1,45 @@
+.button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.repo-item {
+  list-style-type: none;
+  background-color: #f8f8ff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  width: 230px;
+  height: 300px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.stars {
+  width: 15px;
+  margin-right: 10px;
+}
+
+.repo-image {
+  width: 70px;
+}
+
+.repo-heading {
+  color: #e73959;
+  font-size: 22px;
+  margin-top: 15px;
+}
+.stars-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.stars-count {
+  font-size: 15px;
+}
